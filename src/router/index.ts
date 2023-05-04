@@ -16,6 +16,11 @@ const routes: Array<RouteRecordRaw> = [
     name: "reset-select",
     component: () => import("@/views/ResetSelectView.vue"),
   },
+  {
+    path: "/api-text",
+    name: "/api-text",
+    component: () => import("@/views/ApiTextView.vue"),
+  },
 ];
 
 const router = createRouter({
