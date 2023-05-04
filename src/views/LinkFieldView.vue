@@ -43,7 +43,7 @@ import PrimeButton from "primevue/button";
 import { ref } from "vue";
 
 import LinkStatus from "@/types/link-field/LinkStatus";
-import { getTitleAtUrl } from "@/data/link-field/getTitleAtUrl";
+import { getTitleAtUrl } from "@/data/link-field/titleAtUrlApi";
 
 const linkValue = ref<string>("");
 const currentLink = ref<string>("");

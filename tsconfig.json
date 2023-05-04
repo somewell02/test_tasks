@@ -11,7 +11,7 @@
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": true,
     "sourceMap": true,
-    "baseUrl": "./link-field",
+    "baseUrl": ".",
     "types": [
       "webpack-env"
     ],
