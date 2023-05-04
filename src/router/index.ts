@@ -11,6 +11,11 @@ const routes: Array<RouteRecordRaw> = [
     name: "link-field",
     component: () => import("@/views/LinkFieldView.vue"),
   },
+  {
+    path: "/reset-select",
+    name: "reset-select",
+    component: () => import("@/views/ResetSelectView.vue"),
+  },
 ];
 
 const router = createRouter({
