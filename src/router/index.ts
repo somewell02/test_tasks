@@ -21,6 +21,11 @@ const routes: Array<RouteRecordRaw> = [
     name: "/api-text",
     component: () => import("@/views/ApiTextView.vue"),
   },
+  {
+    path: "/table-search",
+    name: "table-search",
+    component: () => import("@/views/TableSearchView.vue"),
+  },
 ];
 
 const router = createRouter({
