@@ -12,13 +12,18 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import("@/views/LinkFieldView.vue"),
   },
   {
+    path: "/time-picker",
+    name: "time-picker",
+    component: () => import("@/views/TimePickerView.vue"),
+  },
+  {
     path: "/reset-select",
     name: "reset-select",
     component: () => import("@/views/ResetSelectView.vue"),
   },
   {
     path: "/api-text",
-    name: "/api-text",
+    name: "api-text",
     component: () => import("@/views/ApiTextView.vue"),
   },
   {
